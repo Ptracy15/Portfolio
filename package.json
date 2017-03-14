@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "PT portfolio page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ptracy15/Portfolio.git"
+  },
+  "author": "Paul Tracy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ptracy15/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Ptracy15/Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.0"
+  }
+}
