@@ -1,0 +1,26 @@
+<% include ./partials/header %>
+
+<div class="container">
+    <div class="jumbotron" id="contactJumbo">
+        <h1>Contact Me</h1>
+        <div class="contactPictureDiv">
+            <img class="contactPicture" src="http://i.imgur.com/n5OA7CW.png">
+        </div>
+
+        <br>
+        <p>Feel free to contact me about any projects or work you would like to have done. 
+        Please leave your contact information and any questions or details about your project!</p>
+        <form method="POST" action="//formspree.io/ptracy16@gmail.com">
+                <input class="form-control" type="text" id="contactName" name="name" placeholder="Name">
+                <input class="form-control" type="text" id="contactEmail" name="_replyto" placeholder="E-Mail">
+                <textarea class="form-control" id="message" rows="4" cols="50" name="message" placeholder="Message"></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_next" value="contactThanks" />
+                <input type="hidden" name="_subject" value="Website contact" />
+                <br>
+                <button class="btn btn-primary">Send</button>
+        </form>
+    </div>
+</div>
+
+<% include ./partials/footer %>
