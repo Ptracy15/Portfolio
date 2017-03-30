@@ -1,0 +1,120 @@
+body {
+    width: 100%;
+    padding-top: 30px;
+    /*background-color: #003366;*/
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbar {
+    background-color: #003366;
+    border-radius: 0px !important;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.topParallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://i.vimeocdn.com/video/523619741_1280x720.jpg);
+    
+    min-height: 700px;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secondParallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://i.vimeocdn.com/video/493298356_1280x720.jpg);
+    min-height: 300px;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 90px;
+    text-align: center;
+    font-weight: 400;
+    color: #CCCC99;
+}
+
+.header h1 {
+    font-size: 70px;
+    text-shadow: 5px 5px black;
+}
+
+.social-media-links {
+    margin-top: 150px;
+    font-weight: bold;
+    opacity: .4;
+}
+
+.social-media-links:hover {
+    opacity: 1;
+}
+
+.social-media-links i {
+    color: #CCCC99;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+
+.aboutMeSection {
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+    font-size: 24px;
+    background-color: #CCCCCC;
+    border: thick solid #003366;
+    color: #003366;
+}
+
+
+.skillBox {
+    padding: 20px ;
+    text-align: center;
+    background-color: #003366;
+    color: #CCCC99;
+    font-weight: bold;
+}
+
+.education {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 400px;
+    font-size: 24px;
+    background-color: #CCCCCC;
+    border: thick solid #003366;
+    color: #003366;
+}
+
+
+
+
+
+/* CSS for footer and Social Media Links*/
+.footer {
+    background-color: #003366;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footerLinks {
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.trademark {
+    text-align: center;
+}
