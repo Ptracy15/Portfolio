@@ -51,7 +51,7 @@ body {
 }
 
 .fourthParallax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://www.fubiz.net/wp-content/uploads/2012/10/Cityscape-Chicago9.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://4.bp.blogspot.com/-paXNjnTwXo0/UHehwUd8dQI/AAAAAAAACnY/mY_MZG26NBk/s1600/Chicago+Skyline+with+Trump.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -89,7 +89,9 @@ body {
 
 .aboutMeSection {
     text-align: center;
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
     height: auto;
     font-size: 20px;
     background-color: white;
@@ -111,7 +113,7 @@ body {
 .education {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 20px;
+
     min-height: 300px;
     height: auto;
     font-size: 24px;
@@ -144,9 +146,15 @@ body {
     height:75px;
 }
 
+#technical {
+    background-color: #D3D3D3;
+    padding: 20px;
+    margin-bottom: 0;
+
+}
+
 #technical li {
     display: table;
-    columns: 2;
     margin: 0 auto;
     
 }
@@ -154,6 +162,19 @@ body {
 .devIcon {
     height: 50px;
     width: 50px;
+}
+
+
+.thumbnail {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    width: 80%;
+    height: auto;
 }
 
 
